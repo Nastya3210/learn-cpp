@@ -137,12 +137,15 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-
 	struct Record records[10];
+
 
 	records[0] = { "Папка", 'К', 4.75000, 4, {03,07,2022} };
 	records[1] = { "Бумага", 'К', 13.90000, 10, {03,04,2021} };
 	records[2] = { "Калькулятор", 'О', 411.00000, 1, {4,3,2022} };
 
+	Draw(records);
+	Draw(records);
+	Draw(records);
 	Draw(records);
 }
