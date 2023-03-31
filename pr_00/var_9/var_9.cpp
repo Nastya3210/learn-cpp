@@ -145,7 +145,5 @@ int main()
 	records[2] = { "Калькулятор", 'О', 411.00000, 1, {4,3,2022} };
 
 	Draw(records);
-	Draw(records);
-	Draw(records);
-	Draw(records);
+
 }
